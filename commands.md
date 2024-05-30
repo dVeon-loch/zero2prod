@@ -1,6 +1,10 @@
 ### Build speedup
 Using cargo-watch:
 
+install:
+
+`cargo install --locked cargo-watch` <- Workaround for current issue with cargo-watch deps
+
 `cargo watch -x check -x test -x run`
 
 ### Testing:
